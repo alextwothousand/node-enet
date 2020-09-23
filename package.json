@@ -1,0 +1,31 @@
+{
+  "name": "node-enet",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for the zpl-c/enet fork",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "node-gyp build",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devlexanderxyz/node-enet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GNU GPL v2",
+  "bugs": {
+    "url": "https://github.com/devlexanderxyz/node-enet/issues"
+  },
+  "homepage": "https://github.com/devlexanderxyz/node-enet#readme",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "nan": "^2.14.1"
+  }
+}
